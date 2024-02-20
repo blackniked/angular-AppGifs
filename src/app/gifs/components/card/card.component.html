@@ -1,0 +1,23 @@
+<div class="card mb-2 text-center animate__animated animate__flipInY" id="cardBg">
+
+
+<div class="card mb-2 text-center bg-dark animate__animated animate__flipInY" id="card">
+
+<shared-lazy-image
+  [url]="gif.images.downsized_medium.url"
+  [alt]="gif.title || 'No name'"
+></shared-lazy-image>
+
+  <!-- <img [src]="gif.images.downsized_medium.url"
+       [alt]="gif.title"
+       class="card-img-top"
+       > -->
+
+  <div class="card-body text-white animate__animated animate__bounceIn animate__slow">
+    <p class="card-text">
+      {{ gif.title || 'No title' }}
+    </p>
+  </div>
+
+</div>
+</div>
