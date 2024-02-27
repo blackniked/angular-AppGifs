@@ -12,3 +12,20 @@
   background: rgb(19,0,36);
   background: linear-gradient(133deg, rgba(19,0,36,1) 0%, rgba(80,9,121,1) 35%, rgba(0,134,255,1) 100%);
 }
+
+/* .ocultar-div{
+  display:block;
+}
+@media screen and (max-width: 600px){
+  .ocultar-div{
+    display:none;
+  }
+}
+.mostrar-div{
+  display:none;
+}
+@media screen and (min-width: 600px) {
+  .mostrar.div{
+    display:block;
+  }
+} */

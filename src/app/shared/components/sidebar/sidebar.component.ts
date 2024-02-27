@@ -9,7 +9,7 @@ import { GifsService } from 'src/app/gifs/services/gifs.service';
 export class SidebarComponent {
 
 constructor( private gifsService: GifsService ){}
-
+public oculto: boolean = false;
 
 get tags():string[]{
   return this.gifsService.tagsHistory;
@@ -20,5 +20,14 @@ get tags():string[]{
 
   }
 
+  ocultarSidebar(){
+    this.oculto = true;
+  }
+  mostrarSidebar(){
+    this.oculto = false;
+  }
+
+
 }
+
 

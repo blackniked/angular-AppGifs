@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { LazyImageComponent } from './components/lazy-image/lazy-image.component';
-
+import { SidebarModule } from 'primeng/sidebar';
+import { ButtonModule } from 'primeng/button';
 
 
 @NgModule({
@@ -11,7 +12,9 @@ import { LazyImageComponent } from './components/lazy-image/lazy-image.component
     LazyImageComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SidebarModule,
+    ButtonModule
   ],
   exports: [
     SidebarComponent,

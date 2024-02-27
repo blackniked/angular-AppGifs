@@ -15,7 +15,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     GifsModule,
     SharedModule,
-    HttpClientModule
+    HttpClientModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
